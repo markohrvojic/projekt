@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Kontaktirajte nas</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Stranica o automobilima">
+		<meta name="keywords" content="automobil, cesta, marka, vozač">
+		<meta name="author" content="Marko Hrvojić">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Convergence"" rel="stylesheet">
+	</head>
+<body>
+	<header>
+			<div class="naslovna-slika"></div>
+			<nav>
+				<ul>
+				<li><a href="index.html">Početna stranica</a></li>
+				<li><a href="vijesti.html">Vijesti</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+				<li><a href="onama.html">O nama</a></li>
+				<li><a href="galerija.html">Galerija</a></li>
+				</ul>
+			</nav>
+	</header>
+	<main>
+		<div class="kontakt">
+		
+		<h1>Javite nam se!</h1>	
+			<form action="http://work2.eburza.hr/pwa/responzive-page/send-contact.php" id="contact_form" name="contact_form" method="POST">
+				<label for="fname">Ime</label>
+				<input type="text" id="fname" name="firstname" placeholder="Unesite ime" required>
+
+				<label for="lname">Prezime</label>
+				<input type="text" id="lname" name="lastname" placeholder="Unesite prezime" required>
+				
+				<label for="lname">E-mail</label>
+				<input type="email" id="email" name="email" placeholder="Unesite E-mail" required>
+
+				<label for="country">Država</label>
+				<select id="country" name="Država">
+				  <option value="">Molimo odaberite</option>
+				  <option value="BE">Belgium</option>
+				  <option value="HR">Croatia</option>
+				  <option value="LU">Luxembourg</option>
+				  <option value="HU">Hungary</option>
+				</select>
+
+				<label for="subject">Recite nam što mislite</label>
+				<textarea id="subject" name="subject" placeholder="Napišite nešto..." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+			<h1>Gdje se nalazimo?</h1>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2785.8621167968427!2d16.0735456!3d45.7138029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47667e543ebb2c65%3A0xe159703d90972cf3!2sVeleu%C4%8Dili%C5%A1te+Velika+Gorica!5e0!3m2!1shr!2shr!4v1548804055656" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+	</main>
+		<footer>
+			<p>Stranica o automobilima <a href="https://github.com/asimec1?tab=repositories"><img src="slike/GitHub-Mark-Light-32px.png" title="Github" alt="Github"></a></p>
+		</footer>
+</body>
+</html>
